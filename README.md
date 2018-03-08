@@ -3,7 +3,7 @@ Because I Don't Like it 👯‍♀️
 
 ## Install
 ```sh
-$ npm i -g
+$ npm i -g fuck-your-code
 ```
 
 ## Usage
