@@ -61,6 +61,10 @@ ourCodeFuck
 ourCodeFuckYourCodeFuc
 ```
 
+## Todo
+ - [ ] support directory
+ - [ ] add tests
+
 ## Author
 
 MIT @ Limichange
