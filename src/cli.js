@@ -1,5 +1,3 @@
-require('v8-compile-cache')
-
 const pkg = require('../package.json')
 const program = require('commander')
 const main = require('./main')
