@@ -30,7 +30,8 @@ module.exports = async function main (path) {
     const isDir = fs.lstatSync(path).isDirectory()
 
     if (isDir) {
-      throw new Error('todo: fuck directory 🚧')
+      console.log('todo: fuck directory 🚧')
+      return
     }
 
     const file = fs.readFileSync(path, 'utf-8')
