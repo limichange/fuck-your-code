@@ -37,6 +37,6 @@ module.exports = async function main (path) {
     const newFileContent = fuckIt(file)
 
     fs.unlinkSync(path)
-    fs.writeFile(path, newFileContent)
+    fs.writeFileSync(path, newFileContent)
   }
 }
