@@ -6,15 +6,9 @@ const main = require('./main')
 
 program
   .version(pkg.version)
-  .command('fyc [input]')
+  .usage('file')
   .action(handleCommand)
-
-const args = process.argv
-if (!args[2] || !program.commands.some(c => c.name() === args[2])) {
-  args.splice(2, 0, 'fuck')
-}
-
-program.parse(args)
+  .parse(process.argv)
 
 async function handleCommand (path, command) {
   main(path)
