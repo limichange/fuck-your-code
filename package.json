@@ -1,6 +1,6 @@
 {
   "name": "fuck-your-code",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "fuck your code",
   "scripts": {
     "test": "jest",
