@@ -2,7 +2,6 @@
   "name": "fuck-your-code",
   "version": "0.0.1",
   "description": "fuck your code",
-  "main": "src/main.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint ."
